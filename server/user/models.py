@@ -49,6 +49,7 @@ class User(AbstractBaseUser):
     is_superuser = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    # ewa = models.CharField(max_length=50, blank=True, null=True, default='') ---Sujeet Code
 
     objects = UserManager()
 
