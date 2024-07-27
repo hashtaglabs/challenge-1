@@ -70,3 +70,14 @@ Note:
 ## Task
 1. Add an input field for the user's Ethereum wallet address to the registration page. When a user registers an account, this wallet address must be saved to the database.
 2. After login, the homepage must show the balance of the user's Ethereum wallet address.
+
+--- Task sheet ----
+##HTL Update on Task
+1. Input field added for EWA on registration page
+2. EWA field added to db/sqlite3
+3. Invoke Import Web3 in client
+4. Show EWA balance on successful login
+(Please note - you have to click refresh after login to show balance of EWA.)
+TO DO - We need to add Auto refresh page reload on frontend to show balance right after login. 
+
+---End of Task----
